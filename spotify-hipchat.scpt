@@ -15,7 +15,7 @@ tell application "Spotify"
 			
 			set message to current_artist & " -  " & current_track
 			
-			do shell script "curl -sS -d 'auth_token=AUTHTOKEN&room_id=ROOMID&from=Spotify&color=yellow&message=" & message & "' https://api.hipchat.com/v2/rooms/message"
+			do shell script "curl -sS -d 'auth_token=AUTHTOKEN&room_id=ROOMID&from=Spotify&color=yellow&message=" & message & "' https://api.hipchat.com/v2/room/message"
 			
 		end if
 		
