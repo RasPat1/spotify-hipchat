@@ -5,7 +5,7 @@ Spotify and hipchat integration
 
 
 `
-curl https://raw.githubusercontent.com/RasPat1/spotify-hipchat/master/spotify-hipchat.scpt | sed 's/AUTHTOKEN/JI26LU0bZJ48qRaQo5r4eon685IXRb8PTEUP96hL/' | sed 's/ROOMID/1147808/' | osascript
+curl https://raw.githubusercontent.com/RasPat1/spotify-hipchat/master/spotify-hipchat.scpt | sed 's/ROOMID/1147808/' | sed 's/AUTHTOKEN/JI26LU0bZJ48qRaQo5r4eon685IXRb8PTEUP96hL/' | osascript
 `
 
 
