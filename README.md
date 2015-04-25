@@ -24,6 +24,8 @@ curl https://raw.githubusercontent.com/RasPat1/spotify-hipchat/master/spotify-hi
 8. Copy / paste the command from step 6 into the blank line in Terminal after the $.  Press return.
 9. A small program will start running in Terminal -- leave Terminal open and go about your business
 10. All of your Spotify activity will be posted to the Musical Chairs room in HipChat!
+11. When you want to stop sharing (booo), simply quit terminal.
+12. When you want to start sharing again, simply copy / paste the command from your spotify-hipchat.txt and run through the above from step 7!
 
 ENJOY
 
