@@ -8,7 +8,7 @@ tell application "Spotify"
 		set track_artist to artist of current track
 		set track_album to album of current track
 		
-		if track_name ≠ current_track and track_artist ≠ current_artist and track_album ≠ current_track then
+		if track_name ≠ current_track then
 			set current_track to name of current track
 			set current_artist to artist of current track
 			set current_album to album of current track
