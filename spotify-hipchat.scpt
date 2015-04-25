@@ -14,8 +14,9 @@ tell application "Spotify"
 			set current_album to album of current track
 			
 			set message to current_artist & " -  " & current_track
+			set encodedMessage to urlencode(message) of me
 			
-			do shell script "curl -sS -d 'from=Spotify&color=green&message=" & urlencode(message) & "' https://api.hipchat.com/v2/room/ROOMID/notification?auth_token=AUTHTOKEN"
+			do shell script "curl -sS -d 'from=Spotify&color=green&message=" & encodedMessage & "' https://api.hipchat.com/v2/room/ROOMID/notification?auth_token=AUTHTOKEN"
 			
 		end if
 		
