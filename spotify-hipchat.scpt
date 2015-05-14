@@ -20,7 +20,7 @@ tell application "Spotify"
 			
 		end if
 		
-		delay 5
+		delay 35
 	end repeat
 end tell
 
