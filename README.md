@@ -14,7 +14,7 @@ Really easy to set up:
 4. Create a new text file on your desktop and call it 'spotify-hipchat.txt'
 5. Open the text file you just created and copy / paste this command into it:
 `
-curl https://raw.githubusercontent.com/RasPat1/spotify-hipchat/master/spotify-hipchat.scpt | sed 's/ROOMID/1147808/' | sed 's/YOUR-TOKEN-HERE/' | osascript
+curl https://raw.githubusercontent.com/RasPat1/spotify-hipchat/master/spotify-hipchat.scpt | sed 's/ROOMID/1147808/' | sed 's/AUTHTOKEN/YOUR-TOKEN-HERE/' | osascript
 `
 6. Replace the YOUR-TOKEN-HERE above with the token you generated in step 3.  Should look something like this:
 `
